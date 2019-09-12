@@ -1,0 +1,105 @@
+.dailydigest-header{
+    height:var(--nav-height);
+    position:relative;
+    z-index:1000;
+    display:-webkit-box;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    background:#2E3436;
+    border-bottom:1px solid #201c29;
+    -webkit-animation:none;
+    animation:none;
+    transform: translateY(-10%);
+}
+
+.dailydigest-nav .dailydigest-sections>li>a:focus,
+.dailydigest-nav .dailydigest-sections>li>a:hover{
+    -webkit-text-fill-color:#fff;
+    background:#201c29;
+}
+
+.dailydigest-header .dailydigest-nav .dailydigest-sections{
+    display:-webkit-box;
+}
+
+.dailydigest-header .dailydigest-nav .dailydigest-sections>li>a{
+    font-family:Rubik,Lato,lucida grande,lucida sans unicode,Tahoma,Sans-Serif;
+    font-weight:500;
+    font-size:.8rem;
+    color:#fff;
+    height:var(--nav-height);
+    padding:.5rem;
+    position:relative;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    text-align:center;
+    border-left:1px solid #201c29;
+    -webkit-transition:.1s;
+    transition:.1s
+}
+
+
+
+.dailydigest-header .dailydigest-nav .dailydigest-sections>li>a>svg{
+    -webkit-transition:.2s;
+    transition:.2s;
+    pointer-events:none;
+    width:40px;
+    height:40px;
+    display:block;
+    margin:5px 20px 5px 20px;
+    fill:none;
+    stroke-width:2;
+    stroke:#c2c2c2
+}
+
+
+.dailydigest-nav:focus>ul>li:nth-child(1) svg,
+.dailydigest-nav:hover>ul>li:nth-child(1) svg{
+    stroke:#ff8a00;
+}
+.dailydigest-header .dailydigest-nav:focus>ul>li:nth-child(2) svg,.dailydigest-header .dailydigest-nav:hover>ul>li:nth-child(2) svg{
+    stroke:#da1b60
+}
+.dailydigest-header .dailydigest-nav:focus>ul>li:nth-child(3) svg,.dailydigest-header .dailydigest-nav:hover>ul>li:nth-child(3) svg{
+    stroke:#f44336
+}
+.dailydigest-header .dailydigest-nav:focus>ul>li:nth-child(4) svg,.dailydigest-header .dailydigest-nav:hover>ul>li:nth-child(4) svg{
+    stroke:#9c27b0
+}
+.dailydigest-header .dailydigest-nav:focus>ul>li:nth-child(5) svg,.dailydigest-header .dailydigest-nav:hover>ul>li:nth-child(5) svg{
+    stroke:#03a9f4
+}
+.dailydigest-header .dailydigest-nav:focus>ul>li:nth-child(6) svg,.dailydigest-header .dailydigest-nav:hover>ul>li:nth-child(6) svg{
+    stroke:#4caf50
+}
+.dailydigest-header .dailydigest-nav:focus>ul>li:nth-child(7) svg,.dailydigest-header .dailydigest-nav:hover>ul>li:nth-child(7) svg{
+    stroke:#8bc34a
+}
+.dailydigest-header .dailydigest-nav:focus>ul>li:nth-child(8) svg,.dailydigest-header .dailydigest-nav:hover>ul>li:nth-child(8) svg{
+    stroke:#ffeb3b
+}
+.dailydigest-header .dailydigest-nav:focus>ul>li:nth-child(9) svg,.dailydigest-header .dailydigest-nav:hover>ul>li:nth-child(9) svg{
+    stroke:#FFC140
+}
+.dailydigest-header .dailydigest-nav:focus>ul>li:nth-child(10) svg,.dailydigest-header .dailydigest-nav:hover>ul>li:nth-child(10) svg{
+    stroke:#ff8a00
+}
+
+a:link {
+  text-decoration: none;
+}
+
+ul.dailydigest-sections {
+  list-style-type: none;
+}
